@@ -1,0 +1,303 @@
+# Radiate WordPress Theme. Translation template file.
+# This file is distributed under the same license as the Radiate Theme.
+msgid ""
+msgstr ""
+"Project-Id-Version: Radiate\n"
+"POT-Creation-Date: 2015-01-26 16:33+0545\n"
+"PO-Revision-Date: 2015-07-31 21:47+0100\n"
+"Last-Translator: Michal Stanke <michal.stanke@mikk.cz>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;esc_attr_x:1,2c;_ex:1,2c;"
+"esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Language: cs-CZ\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Jejda! Tato stránka neexistuje."
+
+#: ../404.php:21
+msgid ""
+"It looks like nothing was found at this location. Try searching with some "
+"keywords."
+msgstr ""
+"Zdá se, že v tomto umístění nic není. Zkuste vyhledávání pomocí nějakého "
+"klíčového slova."
+
+#: ../archive.php:33
+#, php-format
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#: ../archive.php:41
+#, php-format
+msgid "Day: %s"
+msgstr "Den: %s"
+
+#: ../archive.php:44
+#, php-format
+msgid "Month: %s"
+msgstr "Měsíc: %s"
+
+#: ../archive.php:47
+#, php-format
+msgid "Year: %s"
+msgstr "Rok: %s"
+
+#: ../archive.php:50
+msgid "Asides"
+msgstr ""
+
+#: ../archive.php:53
+msgid "Images"
+msgstr "Obrázky"
+
+#: ../archive.php:56
+msgid "Videos"
+msgstr "Videa"
+
+#: ../archive.php:59
+msgid "Quotes"
+msgstr "Citace"
+
+#: ../archive.php:62
+msgid "Links"
+msgstr "Odkazy"
+
+#: ../archive.php:65 ../sidebar.php:19
+msgid "Archives"
+msgstr "Archivy"
+
+#: ../comments.php:32
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../comments.php:39 ../comments.php:57
+msgid "Comment navigation"
+msgstr "Navigace komentářů"
+
+#: ../comments.php:40 ../comments.php:58
+msgid "&larr; Older Comments"
+msgstr "&larr; Starší komentáře"
+
+#: ../comments.php:41 ../comments.php:59
+msgid "Newer Comments &rarr;"
+msgstr "Novější komentáře &rarr;"
+
+#: ../comments.php:69
+msgid "Comments are closed."
+msgstr "Komentáře jsou uzavřeny."
+
+#: ../content-none.php:15
+msgid "Nothing Found"
+msgstr "Nic nebylo nalezeno"
+
+#: ../content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Připraveni publikovat svůj první příspěvek? <a href=\"%1$s\">Začněte zde</a>."
+
+#: ../content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Je nám líto, ale vašim kritériím neodpovídá žádný výsledek. Zkuste prosím "
+"zadat jiné klíčové slovo."
+
+#: ../content-none.php:30
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "Zdá se, že nemůžeme nelézt, co hledáte. Zkuste vyhledávání."
+
+#: ../content-page.php:20 ../content-single.php:24 ../content.php:29
+msgid "Pages:"
+msgstr "Stránky:"
+
+#: ../content-page.php:25 ../content-single.php:57 ../content.php:63
+msgid "Edit"
+msgstr "Upravit"
+
+#: ../content-single.php:34 ../content-single.php:44 ../content.php:40
+#: ../content.php:50
+msgid ", "
+msgstr ", "
+
+#: ../content-single.php:54 ../content.php:60
+msgid "Leave a comment"
+msgstr "Napsat komentář"
+
+#: ../content-single.php:54 ../content.php:60
+msgid "1 Comment"
+msgstr "1 komentář"
+
+#: ../content-single.php:54 ../content.php:60
+msgid "% Comments"
+msgstr "% komentářů"
+
+#: ../content.php:26
+msgid "Read more <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Číst více <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../footer.php:19
+msgid "Proudly  powered by "
+msgstr "Používáme "
+
+#: ../footer.php:20
+msgid "WordPress"
+msgstr "WordPress"
+
+#: ../footer.php:22
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr "Vzhled: %1$s od %2$s."
+
+#: ../front-page.php:34
+msgid "Read more"
+msgstr "Číst více"
+
+#: ../functions.php:48
+msgid "Primary Menu"
+msgstr "Hlavní menu"
+
+#: ../functions.php:71
+msgid "Sidebar"
+msgstr "Postranní panel"
+
+#: ../header.php:38
+msgid "Skip to content"
+msgstr "Přeskočit na obsah"
+
+#: ../inc/custom-header.php:41
+msgid "Header Image One"
+msgstr "První obrázek záhlaví"
+
+#: ../inc/customizer.php:38
+msgid "Site Title"
+msgstr "Název webu"
+
+#: ../inc/customizer.php:69
+msgid "Primary Color"
+msgstr "Primární barva"
+
+#: ../inc/customizer.php:79
+msgid "Custom CSS"
+msgstr "Vlastní CSS"
+
+#: ../inc/customizer.php:98
+msgid "Add your custom css here and design live! (for advanced users)"
+msgstr "Pro živé úpravy zde vložte vlastní CSS! (pro pokročilé uživatele)"
+
+#: ../inc/customizer.php:108
+msgid "Front Page Featured Section"
+msgstr "Zvýrazněné na úvodní stránce"
+
+#: ../inc/customizer.php:136
+msgid "First featured page"
+msgstr "První zvýrazněná stránka"
+
+#: ../inc/customizer.php:144
+msgid "Second featured page"
+msgstr "Druhá zvýrazněná stránka"
+
+#: ../inc/customizer.php:152
+msgid "Third featured page"
+msgstr "Třetí zvýrazněná stránka"
+
+#: ../inc/extras.php:82
+#, php-format
+msgid "Page %s"
+msgstr "Stránka %s"
+
+#: ../inc/template-tags.php:25
+msgid "Posts navigation"
+msgstr ""
+
+#: ../inc/template-tags.php:29
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Starší příspěvky"
+
+#: ../inc/template-tags.php:33
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Novější příspěkvy <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../inc/template-tags.php:58
+msgid "Post navigation"
+msgstr ""
+
+#: ../inc/template-tags.php:61
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr "<span class=\"meta-nav\">&larr;</span> %title"
+
+#: ../inc/template-tags.php:62
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../inc/template-tags.php:84
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: ../inc/template-tags.php:84
+msgid "(Edit)"
+msgstr "(Upravit)"
+
+#: ../inc/template-tags.php:99
+msgid "Post author"
+msgstr "Autor příspěvku"
+
+#: ../inc/template-tags.php:102
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s v %2$s"
+
+#: ../inc/template-tags.php:104
+#, php-format
+msgid "<a class=\"comment-permalink\" href=\"%1$s\">Permalink</a>"
+msgstr "<a class=\"comment-permalink\" href=\"%1$s\">Trvalý odkaz</a>"
+
+#: ../inc/template-tags.php:110
+msgid "Your comment is awaiting moderation."
+msgstr "Váš komentář čeká na schválení."
+
+#: ../inc/template-tags.php:115
+msgid "Reply"
+msgstr "Odpovědět"
+
+#: ../search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Výsledky vyhledávání pro: %s"
+
+#: ../searchform.php:12
+msgctxt "label"
+msgid "Search for:"
+msgstr "Hledat:"
+
+#: ../searchform.php:13
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Hledat &hellip;"
+
+#: ../searchform.php:15
+msgctxt "submit button"
+msgid "Search"
+msgstr "Vyhledat"
+
+#: ../sidebar.php:26
+msgid "Meta"
+msgstr "Meta"

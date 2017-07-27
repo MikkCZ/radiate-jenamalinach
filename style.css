@@ -1,0 +1,128 @@
+/*
+Theme Name: Radiate - Je na malinách
+Theme URI:
+Author: Michal Stanke
+Author URI: http://www.mikk.cz/
+Description: Child theme of Radiate. Please leave this one activated for proper customizations of Radiate.
+Version: 1.1.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: radiate
+Domain Path: /languages/
+
+Template: radiate
+Template Version: 1.1.6
+*/
+
+body,
+button,
+input,
+select,
+textarea {
+    font-family: "Lucida Grande", Lucida Grande, "Lucida Sans Unicode", Lucida Sans, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+.site-branding,
+.main-navigation li,
+.main-navigation a,
+.widget-title {
+    font-family: inherit;
+}
+
+.site-title {
+    max-width: 90%;
+    padding: 0 2rem 0 2.5rem;
+    font-size: inherit;
+    line-height: 1;
+}
+
+#parallax-bg {
+    background-repeat: no-repeat !important;
+    background-position: right top !important;
+    background-size: cover;
+    max-height: 360px; /* radiate_jenamalinach_custom_header_setup() */
+    /* margin: 82px auto 0 auto; */
+}
+
+#masthead {
+    margin-bottom: 360px !important;
+}
+
+/*#masthead .header-wrap {
+    left: 0;
+    right: 0;
+}*/
+
+/*#parallax-bg,
+#masthead .header-wrap {
+    max-width: 1218px;
+}*/
+
+@media screen and (min-width: 768px) {
+    #masthead .header-search-icon {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #parallax-bg {
+        display: none !important;
+    }
+    #masthead {
+        margin-bottom: 65px !important;
+    }
+}
+
+/* WP Rajce galerie */
+.wp-rajce-galerie .album {
+    background: none !important;
+}
+
+.wp-rajce-galerie .album .thumbnail {
+    border: 2px solid #dd3333;
+}
+
+/*** All-in-One Event Calendar (Plana required) **
+
+/*tlacitka kalendare*/
+.ai1ec-calendar-toolbar,
+#ai1ec-agenda-collapse-all,
+#ai1ec-agenda-expand-all,
+#ai1ec-print-button,
+.ai1ec-pagination.btn-group {
+    display: none;
+}
+
+/*tlacitko Back to calendar v konkretni akci*/
+.ai1ec-actions {
+  position: absolute;
+  right: 15px;
+  top: -40px;
+}
+
+/*widget*/
+.ai1ec-agenda-widget-view a.ai1ec-date-title {
+    font-size: 80%;
+}
+.ai1ec-agenda-widget-view a.ai1ec-popup-trigger {
+    margin: 0px -2px;
+    border: none;
+    font-size: 90%;
+}
+.ai1ec-agenda-widget-view .ai1ec-event-location,
+.ai1ec-agenda-widget-view .ai1ec-event-time,
+.ai1ec-agenda-widget-view .ai1ec-allday-badge {
+    display: none !important;
+}
+
+/*zobrazeni udalosti*/
+.ai1ec-categories {
+    display: none;
+}
+.ai1ec-allday-badge {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
